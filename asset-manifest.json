@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/My-Website/static/css/main.528984d0.css",
+    "main.js": "/My-Website/static/js/main.c8caead8.js",
+    "static/media/magic-circle-modified.png": "/My-Website/static/media/magic-circle-modified.809cd60072cade8c8802.png",
+    "static/media/DetailTrip.png": "/My-Website/static/media/DetailTrip.09a90bd32c0846e6f26b.png",
+    "static/media/DetailEvent.png": "/My-Website/static/media/DetailEvent.fd2116386de94bc964bc.png",
+    "static/media/MyProfile.png": "/My-Website/static/media/MyProfile.7ea1eb5db6f3cfc822b6.png",
+    "static/media/OtherProfileFollower.png": "/My-Website/static/media/OtherProfileFollower.6a577295e9c6eee43af4.png",
+    "static/media/Home.png": "/My-Website/static/media/Home.dbce848354f4bca5bee5.png",
+    "static/media/Followers.png": "/My-Website/static/media/Followers.a5b425f9631135fc852d.png",
+    "static/media/Following.png": "/My-Website/static/media/Following.29551c5d9ce5814e516f.png",
+    "static/media/foto_joel.jpeg": "/My-Website/static/media/foto_joel.db3be5c5be2f258331c3.jpeg",
+    "static/media/AddTrip.png": "/My-Website/static/media/AddTrip.54111cf0ac8643dc9944.png",
+    "static/media/AddEvent.png": "/My-Website/static/media/AddEvent.1aebefe52d891b6bd5f6.png",
+    "static/media/GitHub_Logo.png": "/My-Website/static/media/GitHub_Logo.746ec8f0bc97208f903e.png",
+    "index.html": "/My-Website/index.html",
+    "main.528984d0.css.map": "/My-Website/static/css/main.528984d0.css.map",
+    "main.c8caead8.js.map": "/My-Website/static/js/main.c8caead8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.528984d0.css",
+    "static/js/main.c8caead8.js"
+  ]
+}
