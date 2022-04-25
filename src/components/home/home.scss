@@ -1,0 +1,95 @@
+@import '../../global.scss';
+
+.home {
+    background-color: rgb(255, 255, 255);
+
+    .home-content {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .home-content-text {
+            color: $mainColor;
+            margin-bottom: 50px;
+
+            h1 {
+                text-align: center;
+                font-size: 50px;
+                font-weight: 700;
+                text-decoration: none;
+                color: inherit;
+                transition: ease;
+
+                span {
+                    color: royalblue;
+                    transition: all 0.5s ease;
+                }
+            }
+
+            h2 {
+                text-align: center;
+                font-size: 30px;
+                font-weight: 700;
+                text-decoration: none;
+                color: inherit;
+                transition: ease;
+
+                span {
+                    color: red;
+                }
+            }
+        }
+
+        @keyframes rotate {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .magic-circle {
+            display: block;
+            text-align: center;
+
+            .circle-1 {
+                overflow: hidden;
+
+                img {
+                    animation-name: rotate;
+                    animation-duration: 3s;
+                    animation-iteration-count: infinite;
+                    animation-timing-function: linear;
+                    animation-fill-mode: forwards;
+                }
+            }
+        }
+
+        @keyframes bounce {
+            0% {
+                transform: translateY(+10px);
+            }
+
+            50% {
+                transform: translateY(-5px);
+            }
+
+            100% {
+                transform: translateY(+10px);
+            }
+        }
+
+        .home-content-arrow {
+            text-align: center;
+            margin-top: 70px;
+            animation-name: bounce;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease;
+
+        }
+    }
+}

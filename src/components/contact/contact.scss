@@ -1,0 +1,108 @@
+@import '../../global.scss';
+
+.contact {
+    background-color: $mainColor;
+
+    .wrapper {
+        height: calc(100vh - 90px);
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+
+        .contact-text {
+            align-items: center;
+            align-self: center;
+            font-size: 60px;
+            font-weight: 700;
+            color: white;
+
+        }
+
+        .contact-content {
+            font-size: 20px;
+            font-weight: 700;
+            display: flex;
+            flex-direction: row;
+            align-self: center;
+            align-content: center;
+            align-items: center;
+            justify-content: space-between;
+            color: white;
+
+            .contact-call-icons {
+                margin-right: 40px;
+                display: flex;
+                flex-direction: row;
+            }
+
+            .contact-mail-icons {
+                display: flex;
+                flex-direction: row;
+            }
+
+            .related-links {
+                margin-left: 40px;
+                transition: all ease 1s;
+
+                a {
+                    // font-size: 20px;
+                    // font-weight: 700;
+                    text-decoration: none;
+                    color: inherit;
+                    transition: 0.5s;
+                }
+
+                a:hover {
+                    color: rgb(80, 179, 255);
+                    transition: ease;
+                }
+            }
+        }
+
+        @keyframes bounce {
+            0% {
+                transform: translateY(+10px);
+            }
+
+            50% {
+                transform: translateY(-5px);
+            }
+
+            100% {
+                transform: translateY(+10px);
+            }
+        }
+
+        .contact-footer {
+            display: block;
+            text-align: center;
+            margin-bottom: 30px;
+            color: white;
+            animation-name: bounce;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: 300;
+
+            a {
+                text-decoration: none;
+                transition: all 0.5s ease;
+            }
+
+            a:hover {
+                color: red;
+                transition: ease;
+            }
+
+            a:visited {
+                color: inherit;
+            }
+        }
+
+
+    }
+
+}

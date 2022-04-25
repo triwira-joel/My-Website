@@ -1,0 +1,81 @@
+@import '../../global.scss';
+
+.diorama {
+    background-color: rgb(189, 214, 255);
+    width: 100%;
+    height: calc(100vh - 70px);
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: -1000px;
+    transition: all 1s ease;
+
+    &.active {
+        bottom: 0px;
+        position: fixed;
+    }
+
+    .close {
+        position: relative;
+        margin-left: 96.5%;
+        margin-top: 10px;
+    }
+
+    .close:hover {
+        cursor: pointer;
+    }
+
+    .wrapper {
+        width: 98%;
+        max-height: fit-content;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .diorama-text {
+            color: $mainColor;
+
+            h1 {
+
+                font-size: 50px;
+                font-weight: 700;
+                text-decoration: none;
+                color: inherit;
+                transition: ease;
+                text-align: center;
+
+            }
+        }
+
+        .diorama-content {
+            width: 98%;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+
+            .diorama-content-image {
+                width: 100%;
+                display: flex;
+                flex-shrink: 0;
+                overflow-x: scroll;
+                flex-wrap: wrap;
+                scrollbar-color: $mainColor $mainColor;
+                justify-content: center;
+
+                img {
+                    border: 1px solid black;
+                }
+            }
+
+            .diorama-content-text {
+                margin-top: 20px;
+                margin-left: 200px;
+                margin-right: 200px;
+                font-size: 20px;
+                font-weight: 400;
+            }
+        }
+    }
+
+}
